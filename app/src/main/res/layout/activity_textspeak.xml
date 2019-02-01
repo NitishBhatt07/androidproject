@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#000000"
+tools:context="com.bhatt.nitish.speechapplication.Textspeak">
+
+<EditText
+    android:id="@+id/etspeak"
+    android:gravity="center"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:textAlignment="center"
+    android:background="@drawable/round_corner"
+    android:textColor="#ffffff"
+    android:scrollbarSize="5dp"
+    android:scrollbars="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+
+<Button
+    android:background="@drawable/back"
+    android:id="@+id/backbtn"
+    android:layout_marginTop="10dp"
+    android:layout_alignParentStart="true"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_width="25dp"
+    android:layout_height="30dp" />
+
+<Button
+    android:background="@drawable/cancle"
+    android:id="@+id/exitbtn"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="20dp"
+    android:layout_alignParentRight="true"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_width="25dp"
+    android:layout_height="30dp" />
+
+
+
+<Button
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/mike"
+    android:id="@+id/speakbtn"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_width="65dp"
+    android:layout_height="65dp" />
+
+<Button
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/search"
+    android:id="@+id/googlebtn"
+    android:onClick="customsearch"
+    android:layout_width="65dp"
+    android:layout_height="65dp" />
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Jarvis</string>
+
+    <string name="permission_required">Please grant the permission to use the microphone</string>
+    <string name="start_service">START SERVICE</string>
+    <string name="stop_service">STOP SERVICE</string>
+    <string name="speech_toggle_on">Start Speaking</string>
+    <string name="speech_toggle_off">Stop Speaking</string>
+    <string name="introducation">hello sir my name is jarvis\n
+        i am an android application program\n
+        which is made by nitish bhatt\n ,
+    today i am in developing situation so\n
+        i can not perform to many tasks\n,
+    but\n
+    i can in future\n
+   some task which i can perform \n
+        you can get in my command list\n
+    and respons on some genral talk like\n
+        hello\n,
+        hi\n,
+        gud morning\n,
+        gud afternoon\n,
+        gud evening\n
+        gud night\n
+    i have also a google search option\n
+        and i can call also\n
+        and i have advanced text recognition also\n
+        notification service also enabled\n
+        it is an offline application which makes me interesting\n
+
+        hope you like it\n
+
+
+
+
+
+    </string>
+    <string name="commands">
+
+
+        sir this is command list\n\n
+
+        For enable notification = jarvis enable notificaton\n enable notification \n notification \n\n
+        For opening gallery = jarvis open gallery\n open gallery\n gallery \n\n
+        For opening facebook = open facebook\n jarvis open facebook\n facebook, \n\n
+        For opening camera = open camera\n jarvis open camera\n camera, \n\n
+        For opening whatsapp = open whatsapp\n jarvis open whatsapp\n whatsapp, \n\n
+        For opening youtube = open youtube\n jarvis open youtube\n, youtube\n\n
+        For opening file manager = open file manager\n jarvis open file manager\n jarvis file manager\n file manager \n\n
+        For opening text recognition window = open text window\n jarvis open text window\n open text recognition\n \n\n
+        For opening google window = open google\n jarvis open google\n jarvis open google window\n google, \n\n
+        For opening call window = jarvis open call window\n open call window\n call\n \n\n
+        For opening message window = jarvis open message window\n open message window\n message \n\n
+        For knowing time = jarvis what is time\n what is time \n time \n\n
+        For turn on flash = jarvis turn on flash\n turn on flash\n flash on\n\n
+        For turn off flash = jarvis turn off flash\n turn off flash\n flash off\n\n
+        For closing application = jarvis close application\n close application\n close\n exit \n\n
+
+    </string>
+
+    <string name="MusicActivityInstraction">
+
+        Thers are important instractions to operate this Activity\n
+        So please read carefuly\n\n
+        First make a Folder in your internal stroage\n
+        and name it "Music"\n\n
+        Then go to main window and search your song name by speaking\n
+        then copy or rembember it and \n
+        go to Music folder and put your song there ad rename it\n
+        which you see after speaking in MainActivity\n\n
+        Repeat this process for all songs\n\n
+
+    </string>
+
+
+</resources>

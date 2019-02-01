@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bhatt.nitish.speechapplication.Readsms">
+
+    <ImageButton
+        android:id="@+id/speechbtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/message"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sms_sender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Latest Sms"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/sms_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sms_sender"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="None"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <ToggleButton
+        android:id="@+id/speechToggle"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_corner"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textOff="@string/speech_toggle_on"
+        android:textOn="@string/speech_toggle_off"
+        />
+
+
+</RelativeLayout>
